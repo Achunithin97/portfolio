@@ -220,3 +220,5 @@ select { appearance: none; -webkit-appearance: none; cursor: pointer; padding-ri
 .fc-hi { position: absolute; left: 0; top: 0; width: 124px; height: 124px; margin: -62px 0 0 -62px; border-radius: 50%; background: var(--accent); color: #fff; display: grid; place-items: center; transform-origin: 50% 50%; will-change: transform; }
 .fc-hi span { position: absolute; font-size: clamp(1.6rem, 3vw, 2.6rem); font-weight: 300; line-height: 1; transition: opacity .25s; }
 .fc-hi .t2 { opacity: 0; font-size: 2.2rem; }
+
+.pbtn.sm { font-size: 1.15rem; padding: 4px 24px; align-self: flex-start; margin-top: 16px; }
